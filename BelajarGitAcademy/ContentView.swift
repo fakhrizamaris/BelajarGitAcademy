@@ -18,7 +18,12 @@ struct ContentView: View {
             Text("Hello, gess!")
                 .foregroundStyle(.cyan)
                 .fontWeight(.black)
-                .frame(maxWidth: .random(in: 0..<300), maxHeight: .random(in: 0..<300))
+                .frame(maxWidth: .random(in: 200..<300), maxHeight: .random(in: 200..<300))
+                .background(Color.yellow)
+            Text("Siap Bos")
+                .foregroundStyle(.cyan)
+                .fontWeight(.black)
+                .frame(maxWidth: .random(in: 200..<300), maxHeight: .random(in: 200..<300))
                 .background(Color.yellow)
         }
         .padding()
